@@ -48,7 +48,18 @@ angular.module('which.controllers.which', ['which.factory', 'ionic.contrib.ui.ti
         choice: $scope.data.choice
       });
     });
+  }
 
+  //to check if data is a url or not
+  $scope.checkImg = function(dataThing){
+    var pat = /^https?:\/\//i;
+    if (pat.test(dataThing))
+    {
+      console.log('it is a url');
+      // return <img src="dataThing">;
+    } else {
+      return dataThing;
+    }
   }
 
   $scope.originalData = angular.copy($scope.data);
