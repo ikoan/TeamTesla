@@ -3,8 +3,10 @@ var express  = require('express'),
     mongoose.Promise = require('bluebird');
 
 var app = express();
-var port = process.env.PORT || 5007;
-var databaseLocation = 'mongodb://a:a@apollo.modulusmongo.net:27017/Yjavy6ne';
+// var port = process.env.PORT || 5007;
+// var databaseLocation = 'mongodb://a:a@apollo.modulusmongo.net:27017/Yjavy6ne';
+var port = 3000;
+var databaseLocation = 'mongodb://localhost/testdb';
 
 mongoose.connect(databaseLocation, function (err, res) {
   if (err) {

@@ -10,6 +10,7 @@ angular.module('which.factory', [])
   $http.defaults.headers.common.Authorization = 'Bearer' + token;
 
   var serverURI = 'http://secure-castle-2561.herokuapp.com';
+  // var serverURI = 'http://localhost:3000';
 
   /*
    * choose function is called after a decision has been made.
