@@ -65,11 +65,6 @@ npm install ./client
 bower install ./client
 ```
 
-### Roadmap
-
-View the project roadmap at https://waffle.io/HRR-TeamTesla/TeamTesla.
-
-
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
