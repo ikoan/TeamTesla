@@ -4,8 +4,8 @@ Which? the simple <i>mobile</i> app for picking one of each pair or photos or te
 
 ## Team
 
-  - __Product Owner__: Allan
-  - __Scrum Master__: Travis
+  - __Product Owner__: Allan Trinh
+  - __Scrum Master__: Travis Miller
   - __Development Team Members__: Kristen Hayel, Irene Koan
 
 ## Table of Contents
